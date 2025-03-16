@@ -1,0 +1,56 @@
+/* Used by Celebrate.client.tsx */
+.button {
+  background: linear-gradient(90deg in oklch, #a0ffff, #d1a2ff) #ccc;
+  transition:
+    filter 500ms,
+    transform 150ms,
+    box-shadow 150ms;
+  display: block;
+  margin-inline: auto;
+  padding: 1rem;
+  border: none;
+  filter: grayscale(100%);
+  overflow: hidden;
+  border-radius: 99px;
+  box-shadow: 0 0 0.25rem 0 #2442;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    box-shadow: 0 0.25rem 1rem 0 #4884;
+  }
+}
+
+.before {
+  display: inline-block;
+  transition:
+    transform 300ms,
+    opacity 300ms;
+}
+
+.after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(150%);
+  transition:
+    transform 300ms,
+    opacity 300ms;
+}
+
+.hydrated {
+  filter: none;
+
+  .before {
+    opacity: 0;
+    transform: translateY(-150%);
+  }
+
+  .after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

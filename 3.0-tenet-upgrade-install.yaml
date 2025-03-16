@@ -1,0 +1,4 @@
+- addMavenRepository: "https://devtools.jahia.com/nexus/content/repositories/jahia-public-app-store@id=JahiaStore"
+- installOrUpgradeBundle:
+    - "mvn:org.jahia.modules/javascript-modules-engine"
+  autoStart: true
