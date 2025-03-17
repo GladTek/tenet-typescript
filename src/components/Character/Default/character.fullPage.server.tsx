@@ -1,8 +1,4 @@
-import { HydrateInBrowser, jahiaComponent, Render } from "@jahia/javascript-modules-library";
-
-import type { CharacterProps } from "./types.js";
-
-
+import { jahiaComponent, Render } from "@jahia/javascript-modules-library";
 
 jahiaComponent(
   {
@@ -10,7 +6,7 @@ jahiaComponent(
     componentType: "view",
     name: "fullPage",
   },
-  ({ }, { currentNode, currentResource }) => {
+  ({ }, { currentNode }) => {
     const hasGallery = currentNode.isNodeType('tenetmix:hasGallery');
     const hasSkills = currentNode.isNodeType('tenetmix:hasSkills');
     const hasYoutubeSoundtrack = currentNode.isNodeType('tenetmix:hasYoutubeSoundtrack');

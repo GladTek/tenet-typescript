@@ -12,11 +12,11 @@ jahiaComponent(
             'cache.mainResource': 'true'
         }
     },
-    ({ title, subtitle }: TestimonialSectionProps, { currentNode, renderContext, currentResource }) => {
+    ({ title, subtitle }: TestimonialSectionProps, { currentNode }) => {
 
-        const currentLocale = currentResource.getLocale();
-        const currentLocaleCode = currentLocale.getLanguage();
-        const direction = currentLocaleCode === 'ar' ? 'rtl' : 'ltr';
+        //const currentLocale = currentResource.getLocale();
+        //const currentLocaleCode = currentLocale.getLanguage();
+        //const direction = currentLocaleCode === 'ar' ? 'rtl' : 'ltr';
         const allChildren = getChildNodes(currentNode, -1);
 
 

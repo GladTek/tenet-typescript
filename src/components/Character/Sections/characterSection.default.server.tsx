@@ -1,4 +1,4 @@
-import { AddContentButtons, getChildNodes, HydrateInBrowser, jahiaComponent, Render } from "@jahia/javascript-modules-library";
+import { AddContentButtons, getChildNodes, jahiaComponent, Render } from "@jahia/javascript-modules-library";
 
 import type { CharacterSectionProps } from "./types.js";
 jahiaComponent(

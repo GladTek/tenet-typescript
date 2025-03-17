@@ -11,7 +11,7 @@ jahiaComponent(
     componentType: "view",
     name: "header",
   },
-  ({ name, image, "function": role, description }: CharacterProps, { currentNode, currentResource }) => {
+  ({ name, image, "function": role, description }: CharacterProps) => {
     const imageProp = {
       src: image.getUrl(),
       alt: 'Placeholder'

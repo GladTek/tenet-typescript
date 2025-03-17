@@ -1,4 +1,4 @@
-import { AddContentButtons, jahiaComponent, Render, useUrlBuilder } from "@jahia/javascript-modules-library";
+import { AddContentButtons, jahiaComponent, Render } from "@jahia/javascript-modules-library";
 
 import type { LocationProps } from "./types.js";
 jahiaComponent(
@@ -6,7 +6,8 @@ jahiaComponent(
     nodeType: "tenet:location",
     componentType: "view",
   },
-  ({ "jcr:title": title, description, image, country }: LocationProps, { currentNode, renderContext, currentResource }) => {
+  //({ "jcr:title": title, description, image, country }: LocationProps, { currentNode, renderContext, currentResource }) => {
+  ({ image }: LocationProps, { currentNode }) => {
 
     const imageProp = {
       src: image.getUrl(),

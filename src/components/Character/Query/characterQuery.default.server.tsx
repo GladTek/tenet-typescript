@@ -1,4 +1,4 @@
-import { AddContentButtons, getChildNodes, getNodesByJCRQuery, HydrateInBrowser, jahiaComponent, Render } from "@jahia/javascript-modules-library";
+import { getNodesByJCRQuery, jahiaComponent, Render } from "@jahia/javascript-modules-library";
 import { SimpleHeaderTitle } from "../../shared/Title/SimpleHeaderTitle";
 import type { JCRNodeWrapper } from "org.jahia.services.content";
 interface CharacterQueryProps {
@@ -9,7 +9,7 @@ jahiaComponent(
         nodeType: 'tenet:charactersQuery',
         name: 'default',
         componentType: 'view'
-    }, ({ numberOfCharacters }: CharacterQueryProps, { currentNode, currentResource, renderContext }) => {
+    }, ({ numberOfCharacters }: CharacterQueryProps, { currentNode, renderContext }) => {
         const home = renderContext.getSite().getHome();
 
         const numberToGet = numberOfCharacters ? Number(numberOfCharacters) : 3;

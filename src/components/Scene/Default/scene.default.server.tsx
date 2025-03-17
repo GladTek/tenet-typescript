@@ -5,7 +5,7 @@ jahiaComponent(
     {
         nodeType: "tenet:scene",
         componentType: "view",
-    }, ({ "jcr:title": title, description, image, day }: SceneProps) => {
+    }, ({ "jcr:title": title }: SceneProps) => {
 
         return (
             <>

@@ -8,7 +8,7 @@ jahiaComponent(
         nodeType: "tenet:scene",
         componentType: "view",
         name: 'location',
-    }, ({ "jcr:title": title, description, image, day }: SceneProps, { currentNode, currentResource }) => {
+    }, ({ "jcr:title": title, description, image, day }: SceneProps, { currentNode }) => {
         const { t } = useTranslation();
         const truncatedDescription = truncate(description, 200, { stripTags: true }) || '';
         return (

@@ -7,7 +7,7 @@ jahiaComponent(
         nodeType: 'tenet:character',
         name: 'scenes',
         componentType: 'view'
-    }, ({ }, { currentNode, currentResource }) => {
+    }, ({ }, { currentNode }) => {
         const identifier = currentNode.getIdentifier();
         const invertedFlowQuery = 'SELECT * FROM [tenet:scene] as S where invertedCharacters LIKE \'%' + identifier + '%\'';
         const allInvertedFlowScenes = getNodesByJCRQuery(currentNode.getSession(), invertedFlowQuery, -1);

@@ -1,4 +1,4 @@
-import { getNodeProps, jahiaComponent, useUrlBuilder } from "@jahia/javascript-modules-library";
+import { getNodeProps, jahiaComponent } from "@jahia/javascript-modules-library";
 
 import type { TestimonialProps } from "./types.js";
 import Rating from "../../shared/Rating/Rating.jsx";
@@ -7,7 +7,7 @@ jahiaComponent(
     nodeType: "tenet:testimonial",
     componentType: "view",
   },
-  ({ character, rating, message }: TestimonialProps, { currentNode }) => {
+  ({ character, rating, message }: TestimonialProps) => {
     const testimonialCharacter = getNodeProps(character, ['name', 'image', 'function']);
     return (
       <div className="w-full p-8 bg-white rounded-md shadow-lg dark:bg-gray-800">

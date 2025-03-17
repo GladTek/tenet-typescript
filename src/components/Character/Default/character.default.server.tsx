@@ -7,11 +7,11 @@ jahiaComponent(
     nodeType: "tenet:character",
     componentType: "view",
   },
-  ({ name, "function": role, description, image }: CharacterProps, { currentNode }) => {
+  ({ name, "function": role, image }: CharacterProps, { currentNode }) => {
     const { buildNodeUrl } = useUrlBuilder();
     return (
       <>
-        <CharacterImageCard name={name} description={description} role={role} image={image} url={buildNodeUrl({ nodePath: currentNode.getPath() })} ></CharacterImageCard >
+        <CharacterImageCard name={name} role={role} image={image} url={buildNodeUrl({ nodePath: currentNode.getPath() })} ></CharacterImageCard >
       </>
     );
   },

@@ -1,4 +1,4 @@
-import { AddContentButtons, getChildNodes, getNodesByJCRQuery, HydrateInBrowser, jahiaComponent, Render } from "@jahia/javascript-modules-library";
+import { getNodesByJCRQuery, jahiaComponent, Render } from "@jahia/javascript-modules-library";
 import { SimpleHeaderTitle } from "../../shared/Title/SimpleHeaderTitle";
 import type { JCRNodeWrapper } from "org.jahia.services.content";
 
@@ -7,7 +7,7 @@ jahiaComponent(
         nodeType: 'tenet:scenesQuery',
         name: 'default',
         componentType: 'view'
-    }, ({ }, { currentNode, currentResource, renderContext }) => {
+    }, ({ }, { currentNode, renderContext }) => {
         const home = renderContext.getSite().getHome();
         const scenesQuery = 'SELECT * FROM [tenet:scene] WHERE ISDESCENDANTNODE(\'' + home.getPath() + '\') order by day asc';
         const allScenes = getNodesByJCRQuery(currentNode.getSession(), scenesQuery, -1);
