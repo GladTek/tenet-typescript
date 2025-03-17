@@ -1,5 +1,6 @@
 import { getNodesByJCRQuery, jahiaComponent, Render } from "@jahia/javascript-modules-library";
 import { SimpleHeaderTitle } from "../../shared/Title/SimpleHeaderTitle";
+
 import type { JCRNodeWrapper } from "org.jahia.services.content";
 
 jahiaComponent(

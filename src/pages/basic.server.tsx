@@ -1,4 +1,4 @@
-import { Area, jahiaComponent } from "@jahia/javascript-modules-library";
+import { AbsoluteArea, Area, jahiaComponent } from "@jahia/javascript-modules-library";
 import { Layout } from "./Layout.jsx";
 
 jahiaComponent(
@@ -10,7 +10,9 @@ jahiaComponent(
   },
   ({ "jcr:title": title }) => (
     <Layout title={title}>
+      <AbsoluteArea name="navArea" allowedTypes={['tenet:navMenu']} numberOfItems={1} />
       <Area name="main" />
+      <AbsoluteArea name="footerArea" allowedTypes={['tenet:footerMenu']} numberOfItems={1} />
     </Layout>
   ),
 );

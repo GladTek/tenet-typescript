@@ -2,6 +2,7 @@ import { jahiaComponent, useUrlBuilder } from "@jahia/javascript-modules-library
 
 import type { CharacterProps } from "./types.ts";
 import { CharacterImageCard } from "../../shared/Cards/CharacterImageCard.jsx";
+
 jahiaComponent(
   {
     nodeType: "tenet:character",

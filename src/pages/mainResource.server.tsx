@@ -10,6 +10,7 @@ jahiaComponent(
         <Layout title={title}>
             <AbsoluteArea name="navArea" allowedTypes={['tenet:navMenu']} numberOfItems={1} />
             <Render node={currentNode} view="fullPage" />
+            <AbsoluteArea name="footerArea" allowedTypes={['tenet:footerMenu']} numberOfItems={1} />
         </Layout>
     ),
 );

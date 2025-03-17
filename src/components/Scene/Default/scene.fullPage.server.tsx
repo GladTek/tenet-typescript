@@ -8,7 +8,7 @@ jahiaComponent(
         componentType: "view",
         name: "fullPage",
     },
-    ({ }, { currentNode, currentResource }) => {
+    ({ }, { currentNode }) => {
         return (
             <>
                 <Render node={currentNode} view="location" />

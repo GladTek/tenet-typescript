@@ -1,4 +1,4 @@
-import { jahiaComponent } from "@jahia/javascript-modules-library";
+import { jahiaComponent, useUrlBuilder } from "@jahia/javascript-modules-library";
 
 import type { LocationProps } from "./types.js";
 import { useTranslation } from "react-i18next";
@@ -11,7 +11,7 @@ jahiaComponent(
     componentType: "view",
     name: "data"
   },
-  ({ "jcr:title": title, description, country }: LocationProps, { currentNode }) => {
+  ({ "jcr:title": title, description, country }: LocationProps, { currentNode, renderContext, currentResource }) => {
 
 
 

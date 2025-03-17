@@ -5,6 +5,7 @@ import HeaderLeftRightComponent from "../../shared/Header/HeaderLeftRightCompone
 
 
 
+
 jahiaComponent(
   {
     nodeType: "tenet:character",

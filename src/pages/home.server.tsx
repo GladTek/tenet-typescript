@@ -11,7 +11,9 @@ jahiaComponent(
   ({ "jcr:title": title }) => (
     <Layout title={title}>
       <AbsoluteArea name="navArea" allowedTypes={['tenet:navMenu']} numberOfItems={1} />
+      <Area name="heading" />
       <Area name="main" />
+      <AbsoluteArea name="footerArea" allowedTypes={['tenet:footerMenu']} numberOfItems={1} />
     </Layout>
   ),
 );

@@ -1,12 +1,80 @@
 {
-  "Mbvdf2LrCB5sW9PUFXO48": "Bonjour <mark>{{name}}</mark> !",
-  "0U2mp51dWjqWXje4x-eUV": "Double-cliquez pour changer le nom",
-  "7l9zetMbU4cKpL4NxSOtL": "Bienvenue sur Jahia! Votre module JavaScript a été créé avec succès et avec lui un site Jahia. Voici ce que vous pouvez faire à partir de là :",
-  "8S0DVCRSnmQRKF9lZnNGj": "Illustrations par <a>Katerina Limpitsouni</a>",
-  "89D3xFLMZmCAencaqw68C": "Cliquez ce bouton pour ajouter un nouveau contenu",
-  "AI95bg1EJsr48SR-4f_pl": "Rendu par le serveur",
-  "OfBsezopuIko8aJ6X3kpw": "Bien que cette page soit codée avec React, elle est entièrement rendue par le serveur. Le JavaScript côté client n'est pas nécessaire par défaut ! Vous pouvez tout de même vous en servir quand vous le souhaitez :",
-  "hBBhbeE0-a4KS9HVFPsOz": "Hydraté côté client",
-  "nr31fYHB-RqO06BCl4rYO": "Cela s'appelle la <a>Conception en archipel (en)</a>.",
-  "JI87mYV8J5pAEST4RIUcb": "Cette page est disponible en :"
+  "tenet": "TENET",
+  "testimonialTitle": "What our characters are saying about",
+  "theme": "Theme",
+  "languages": "Languages",
+  "learnMore": "Learn More",
+  "arrows": {
+    "left": "left arrow",
+    "right": "right arrow"
+  },
+  "day": "Day {{dayNumber}}",
+  "rating": {
+    "aria": "Rating {{currentRating}} out of {{maximum}}"
+  },
+  "cookies": {
+    "title": "Manage Cookies",
+    "text": "In TENET, time flows both forward and backward—just like our cookies. We use cookies to improve your experience as you navigate our site, helping you move seamlessly through time (or at least through our content). Whether you’re browsing forwards or inverting back through pages, rest assured your data is handled with care. You can accept or manage cookies at any moment—just as the Protagonist manipulates time, you control how we handle your preferences. Ready to move forward? Or perhaps… backward?",
+    "button": {
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    }
+  },
+  "section": {
+    "characters": {
+      "team": "The main characters",
+      "inNormalFlow": "Characters in Normal Flow",
+      "inInvertedFlow": "Characters in Inverted Flow",
+      "inNormalFlowShort": "Normal Flow",
+      "inInvertedFlowShort": "Inverted Flow",
+      "some": "Some Characters"
+    },
+    "skills": {
+      "title": "Skills",
+      "weregood": "We are good",
+      "why": "Here is why"
+    },
+    "video": {
+      "title": "Soundtrack Video"
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "relatedScenes": {
+      "title": "Scenes",
+      "inNormalFlow": "Normal Flow Scenes",
+      "inInvertedFlow": "Inverted Flow Scenes"
+    },
+    "footer": {
+      "copyrightMessage": "Present (and some timelines to Past). Gladtek, All rights reserved."
+    }
+  },
+  "countries": {
+    "UA": "Ukraine",
+    "NO": "Norway",
+    "IN": "India",
+    "GB": "United Kingdom",
+    "IT": "Italy",
+    "EE": "Estonia",
+    "VN": "Vietnam",
+    "RU": "Russia"
+  },
+  "contact": {
+    "title": "Contact us",
+    "why": {
+      "title": "Why do you want to join me ?",
+      "answer": "Your answer"
+    },
+    "name": "Hi 👋! My name is...",
+    "name-placeholder": "Your name",
+    "represent": "and I represent...",
+    "team-protagonist": "The Protagonist",
+    "team-sator": "Sator",
+    "ask": "I'd love to ask about...",
+    "ask-placeholder": "Whatever your heart desires :)",
+    "submit": "Submit"
+  },
+  "scene": {
+    "backToLocation": "Back to the location"
+  }
 }
