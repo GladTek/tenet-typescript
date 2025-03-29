@@ -1,5 +1,15 @@
 # TENET for Jahia in Typescript
 
+> [!CAUTION]
+> Deprecated with the release of **@jahia/javascript-modules-library 0.6.0**.
+> The module with 0.6.0+ will be updated in a separate **private module**.
+> 
+> Version is still in early stage (Need more Client Side complex cases to fully adopt it)
+
+Client Library Targets for client usecases: 
+- https://headlessui.com/
+- https://motion.dev/
+
 (Code isn't that perfect, I am just a Backend guy)
 
 - This should be compatible with the website created in https://hub.docker.com/repository/docker/achaabni/jahia-tenet
